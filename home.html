@@ -7,9 +7,116 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Home ~</title>
+    <title>Trainer's Journey ~</title>
+    <style>
+      .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+    </style>
 </head>
 <body>
-    
+
+    <!-- Header -->
+
+      <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="./home.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4"><img src="./assets/Spr_RB_Red_2.png" class="px-2"> supernovae ~</span></a>
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="./home.html" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item dropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Generations
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu">
+                    <li><a class="dropdown-item" href="./gen-1.html">Gen I</a></li>
+                    <li><a class="dropdown-item" href="#">Gen II</a></li>
+                    <li><a class="dropdown-item" href="#">Gen III</a></li>
+                  </ul>
+            </li>
+            <!-- <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
+          </ul>
+        </header>
+      </div>
+      
+      <!-- Introduction -->
+
+      <div class="px-4 pt-1 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Before we start...</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">This website is a diary of adventures in the <b>Pokémon</b> world. Pokémon was my first virtual journey when i was 3 and now that i have times 10 age, I wanted to record the journeys in a diary accessible to only fews.<br>
+            <i>Don't assume your dreams are just fantasy. If you can imagine a world, believe in it... and dive in.</i></p>
+        </div>
+
+        <!-- Carousel -->
+
+        <div class="container py-3">
+          <img src="./assets/homelab.png">
+        </div>
+      </div>
+
+    <!-- Generations of Adventures -->
+
+    <div class="container px-4 py-2 pb-5" id="featured-3">
+      <div class="row g-4 py-1 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-2">
+            <img src="./assets/charizard.png">
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Generation I</h3>
+          <p>Pokémon Red and Blue are the original pair of Pokémon games released in 1998. Released in Japan in 1996 as Pokémon Red and Green, the versions differ a substantial amount from their Japanese counterparts, boasting the graphics and final dungeon design of the Japanese Blue with the version exclusivities of Red and Green.</p>
+          <a href="./gen-1.html" class="icon-link">
+            Enter
+            <img src="./assets/pokeball.png">
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-2">
+            <img src="./assets/lugia.png">
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Generation II</h3>
+          <p>Pokemon Gold and Silver, the first main series sequels, were released in late 1999. These versions don't differ quite as much between Japanese and everywhere else: only a slight variation in version exclusives exist. The games featured far superior graphics and were Game Boy Colour compatible, and had a unique set of sprites between games</p>
+          <a href="#" class="icon-link">
+            Enter
+            <img src="./assets/pokeball.png">
+          </a>
+        </div>
+        <div class="feature col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-secondary bg-gradient fs-2 mb-2">
+            <img src="./assets/kyogre.png">
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Generation III</h3>
+          <p>Pokemon Ruby and Sapphire, often dubbed Pokemon Advance during their prerelease, were released in 2002. The next generation of Pokemon, right after the initial mania surrounding the series had subsided, ignited the sales of the Game Boy Advance and brought a major facelift to the game both graphically and mechanically.</p>
+          <a href="#" class="icon-link">
+            Enter
+            <img src="./assets/pokeball.png">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="./home.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li> -->
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 simoSchwarz</p>
+        <p class="text-center text-body-tertiary">Captions are from <a href="htt://serebii.net/">Serebii</a></p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
